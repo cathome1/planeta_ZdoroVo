@@ -1,0 +1,220 @@
+/* header */
+.header {
+    background: #22b3a6;
+    height: 75px;
+}
+.header-title {
+    color: white;
+    position: relative;
+    margin-left: 80px;
+    top: 40%;
+    width: 140px;
+    margin:  0 auto;
+}
+/* main */
+.shtrih {
+    margin: 40px 20%;
+}
+.shtrih_number {
+    position: relative;
+    left: 35%;
+    font-size: 40px;
+    width: 160px;
+    margin-bottom: 20px;
+    
+}
+.shtrih_text {
+    padding-left: 10px;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    max-width: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.gray_fon {
+    position: relative;
+    background-color: #eceff4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 23.3vh
+}
+.your_card {
+    color: #969799;
+    margin-top: 20px;
+}
+.not_button {
+    margin:  0 auto;
+    z-index: 2;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: white;
+    width: 50%;
+    height: 70px;
+}
+.yellow_ring {
+    z-index: 3;
+    position: absolute;
+    background: #fff857;
+    height: 60px;
+    width: 60px;
+    border-radius: 36px;
+    left: 27%;
+    top: 30%
+}
+.balance{
+    z-index: 4;
+    position: absolute;
+    top: 35%;
+    left: 31%;
+    font-size: 40px;
+}
+.bonusov {
+    z-index: 4;
+    color: #37ac99;
+    position: absolute;
+    left: 55%;
+    top: 47%;
+    font-weight: 1000;
+}
+.history_title {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+.history {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dates {
+    list-style-type: none;
+}
+.data {
+    color: #969799;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.balls {
+    list-style-type: none;
+    margin-right: 20px;
+}
+.ball {
+    color: #2eb396;
+    font-weight: 800;
+    font-size: 20px;
+}
+.ball.spis {
+    color: #da5550;
+    font-weight: 800;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+.nav1 {
+    background: url(./icons/home.png);
+    height: 80px;
+    width: 90px;
+}
+.nav2 {
+    background: url(./icons/search.png);
+    height: 80px;
+    width: 90px;
+}
+.nav3 {
+    background: url(./icons/cart.png);
+    height: 80px;
+    width: 90px;
+}
+.nav4 {
+    background: url(./icons/orders.png);
+    height: 80px;
+    width: 90px;
+}
+.nav5 {
+    background: url(./icons/main.png);
+    height: 80px;
+    width: 90px;
+}
+.eans {
+    margin: 20px 25vw;
+}
+/* adaptive */
+@media (max-width: 768px){
+    .eans {
+        margin: 20px 37vw;
+    }
+    .shtrih_number {
+        left: 43.5%;
+    }
+    .yellow_ring {
+        top: 40%;
+    }
+    .balance {
+        top: 47%;
+    }
+    .bonusov {
+        top: 64%;
+        font-size: 20px ;
+    }
+}
+@media (max-width: 394px){
+    .eans {
+        margin: 20px 26vw;
+    }
+    .shtrih_number {
+        left: 37.5%;
+    }
+    .yellow_ring {
+        top: 30%;
+    }
+    .balance {
+        top: 35%;
+    }
+    .bonusov {
+        top: 45%;
+        font-size: 18px ;
+    }
+}
+@media (max-width: 375px){
+    .eans {
+        margin: 20px 23vw;
+    }
+    .shtrih_number {
+        left: 35.5%;
+    }
+    .yellow_ring {
+        top: 41%;
+    }
+    .balance {
+        top: 46%;
+    }
+    .bonusov {
+        top: 58%;
+        font-size: 20px ;
+    }
+}
+@media (max-width: 325px){
+    .eans {
+        margin: 20px 18vw;
+    }
+    .shtrih_number {
+        left: 32.5%;
+    }
+    .yellow_ring {
+        top: 41%;
+    }
+    .balance {
+        top: 46%;
+    }
+    .bonusov {
+        top: 60%;
+        font-size: 18px ;
+    }
+}
